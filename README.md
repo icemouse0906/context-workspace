@@ -59,7 +59,7 @@ npm run test:e2e
 
 使用临时独立配置运行 Chrome for Testing，不访问个人 Chrome 配置。测试网页由本机 HTTP 服务提供；测试涵盖实际 MV3 加载、service worker、UI、浏览器重启持久化和窄屏布局。测试结束删除临时配置，并在 `docs/preview.png` 保存界面截图。受限网络环境可能需要代理才能安装依赖和测试浏览器。具体已执行结果见 [自检记录](docs/SELF_CHECK.md)。
 
-发布前检查见 [2026-10-09 检查记录](docs/PRE_RELEASE_CHECK_2026-10-09.md)；真人操作结果和截图见 [2026-10-04 人工验收](docs/manual-acceptance-2026-10-04/README.md)。浏览器集成测试在普通标签页渲染扩展界面，不能替代真实 Side Panel 容器的人工验收。
+发布前检查见 [2026-10-09 检查记录](docs/PRE_RELEASE_CHECK_2026-10-09.md)；真人操作结果和截图见 [2026-10-04 人工验收](docs/manual-acceptance-2026-10-04/README.md)。B3 真实侧栏最窄/拉宽已补验通过，见 [补验报告与截图](docs/manual-acceptance-B3-2026-10-09/README.md)。浏览器集成测试在普通标签页渲染扩展界面，不能替代真实 Side Panel 容器的人工验收。
 
 [查看侧边栏界面截图](docs/preview.png)（由 0.2 浏览器集成测试自动生成）。
 
