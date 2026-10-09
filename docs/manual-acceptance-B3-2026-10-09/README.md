@@ -71,15 +71,15 @@ JSON.stringify({width:innerWidth,scrollWidth:document.documentElement.scrollWidt
 
 | 文件 | 内容 |
 | --- | --- |
-| [wide-form.png](screenshots/wide-form.png) | 首次拉宽后的真实侧栏新建表单。 |
-| [wide-width-console.png](screenshots/wide-width-console.png) | 710px 测量。 |
-| [minimum-form.png](screenshots/minimum-form.png) | 最窄时填写好的表单。 |
-| [minimum-resources.png](screenshots/minimum-resources.png) | 最窄时详情、操作按钮与两条资源。 |
-| [minimum-checklist.png](screenshots/minimum-checklist.png) | 最窄时可操作的勾选清单。 |
-| [minimum-width-console.png](screenshots/minimum-width-console.png) | 360px 测量。 |
-| [wide-again-resources.png](screenshots/wide-again-resources.png) | 最窄后再次拉宽，内容和资源保持正常。 |
-| [wide-again-width-console.png](screenshots/wide-again-width-console.png) | 1078px 测量。 |
+| [wide-form.png](screenshots/wide-form.jpg) | 首次拉宽后的真实侧栏新建表单。 |
+| [wide-width-console.png](screenshots/wide-width-console.jpg) | 710px 测量。 |
+| [minimum-form.png](screenshots/minimum-form.jpg) | 最窄时填写好的表单。 |
+| [minimum-resources.png](screenshots/minimum-resources.jpg) | 最窄时详情、操作按钮与两条资源。 |
+| [minimum-checklist.png](screenshots/minimum-checklist.jpg) | 最窄时可操作的勾选清单。 |
+| [minimum-width-console.png](screenshots/minimum-width-console.jpg) | 360px 测量。 |
+| [wide-again-resources.png](screenshots/wide-again-resources.jpg) | 最窄后再次拉宽，内容和资源保持正常。 |
+| [wide-again-width-console.png](screenshots/wide-again-width-console.jpg) | 1078px 测量。 |
 
-![最窄真实侧栏](screenshots/minimum-resources.png)
+![最窄真实侧栏](screenshots/minimum-resources.jpg)
 
-![再次拉宽后的真实侧栏](screenshots/wide-again-resources.png)
+![再次拉宽后的真实侧栏](screenshots/wide-again-resources.jpg)
