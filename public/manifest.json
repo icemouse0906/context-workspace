@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Context Workspace",
+  "version": "0.2.0",
+  "description": "按正在做的事情保存网页，关闭与恢复任务现场。仅本地存储。",
+  "minimum_chrome_version": "116",
+  "permissions": ["storage", "tabs", "sidePanel"],
+  "action": { "default_title": "打开 Context Workspace" },
+  "background": { "service_worker": "background.js", "type": "module" },
+  "side_panel": { "default_path": "index.html" },
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' data:;" }
+}

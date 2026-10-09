@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+.e2e-profile/
+test-results/
+.env
+.env.*
+!.env.example
+*.log
