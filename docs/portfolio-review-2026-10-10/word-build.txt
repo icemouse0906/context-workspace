@@ -1,0 +1,16 @@
+
+> thesis-format-addin@0.1.0 build
+> tsc -p tsconfig.json --noEmit && vite build
+
+vite v6.4.3 building for production...
+transforming...
+✓ 41 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/commands/index.html                          0.36 kB │ gzip:  0.24 kB
+../dist/taskpane/index.html                          1.23 kB │ gzip:  0.70 kB
+../dist/assets/taskpane-DNu04Adk.css                 4.44 kB │ gzip:  1.58 kB
+../dist/assets/commands-vcr_BlJT.js                  0.07 kB │ gzip:  0.09 kB
+../dist/assets/modulepreload-polyfill-B5Qt9EMX.js    0.71 kB │ gzip:  0.40 kB
+../dist/assets/taskpane-CTb6-F1d.js                190.25 kB │ gzip: 62.02 kB
+✓ built in 739ms

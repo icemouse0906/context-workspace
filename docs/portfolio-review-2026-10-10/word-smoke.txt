@@ -1,0 +1,50 @@
+
+> thesis-format-addin@0.1.0 smoke
+> node scripts/smoke.mjs
+
+TAP version 13
+# Subtest: 内置模板全部通过校验，导入补齐默认值后稳定往返
+ok 1 - 内置模板全部通过校验，导入补齐默认值后稳定往返
+  ---
+  duration_ms: 1.204167
+  type: 'test'
+  ...
+# Subtest: 执行真实本地解析器，识别小五、正文与标题字号
+ok 2 - 执行真实本地解析器，识别小五、正文与标题字号
+  ---
+  duration_ms: 0.581292
+  type: 'test'
+  ...
+# Subtest: 非法导入在进入 Word 之前被拒绝
+ok 3 - 非法导入在进入 Word 之前被拒绝
+  ---
+  duration_ms: 0.498792
+  type: 'test'
+  ...
+# Subtest: AI 只允许本地代理或 HTTPS，不向不安全端点发送密钥
+ok 4 - AI 只允许本地代理或 HTTPS，不向不安全端点发送密钥
+  ---
+  duration_ms: 0.3235
+  type: 'test'
+  ...
+# Subtest: AI 正常响应可生成规则，异常字号和 HTTP 响应不会直接套用或泄露响应正文
+ok 5 - AI 正常响应可生成规则，异常字号和 HTTP 响应不会直接套用或泄露响应正文
+  ---
+  duration_ms: 0.423916
+  type: 'test'
+  ...
+# Subtest: AI 超时会取消请求并释放计时器；调用方也可取消
+ok 6 - AI 超时会取消请求并释放计时器；调用方也可取消
+  ---
+  duration_ms: 0.330334
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 189.363875
